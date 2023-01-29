@@ -1,0 +1,115 @@
+.searcher__portion {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__portion {
+  padding: 0 3rem;
+  flex-basis: 50%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.form__portion input {
+  display: block;
+  padding: 0.4rem 0.7rem;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  margin-top: 0.8rem;
+  outline: none;
+}
+
+.form__portion .examples__container{
+  display: flex;
+  gap: 0.5rem;
+  color: white;
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  flex-wrap: wrap;
+  align-items: center;
+  cursor: pointer;
+}
+.examples__container p{
+  background-color: var(--color-bg);
+  font-weight: 300;
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  transition: var(--transition);
+}
+.examples__container p:hover{
+  background-color: var(--color-primary);
+}
+.form__portion form {
+  width: 100%;
+}
+.form__portion button {
+  width: 100%;
+  margin-top: 1rem;
+}
+.player__portion {
+  flex-basis: 50%;
+}
+.player__portion img {
+  object-fit: cover;
+  width: 30rem;
+}
+.transcripts__section {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.card {
+  width: 20rem;
+  background-color: var(--color-bg-trans);
+  color: var(--color-white-light);
+  padding: 1rem;
+  border-radius: 8px;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.trans p {
+  font-weight: 300;
+}
+
+.video__container iframe {
+  width: 100%;
+}
+
+.error {
+  color: red;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+.generic__btn{
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+}
+/* ==================MEDIA QURIES (MEDIUM DEVICES)=============== */
+
+@media screen and (max-width: 1024px) {
+}
+
+/* ==================MEDIA QURIES (SMALL DEVICES)=============== */
+
+@media screen and (max-width: 600px) {
+  .player__portion img {
+    display: none;
+  }
+  .form__portion {
+    margin-top: 1rem;
+    flex-basis: 100%;
+  }
+}

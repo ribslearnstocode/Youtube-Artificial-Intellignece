@@ -1,0 +1,54 @@
+
+	PRESENTATION VIDEO SEQUENCE
+
+########## TEAM INTRO ##########
+
+
+########## VISION ##############
+
+* Help quickly locate required information from a specific YouTube video.
+
+* Provide the user with the most relevant results based on the semantics of the user's query.
+instead of keywords
+
+########## PROBLEM ################
+
+Manually search for the required information from a specific YouTube video.
+
+ - Time Consuming
+ - Unreliable
+
+########## SOLUTION ##############
+
+Automatically Search for the required or most relevant information from a Youtube video based on the semantics of the user's query.
+
+- Fast 
+- Reliable
+
+######### TOOLS & MODELS #############
+
+Tools:
+- Python & Flask [ For interacting with Cohere AI API ]  
+- ReactJs & Javascript [ For Front-end Development ]
+
+MODELS:
+- NLTK [ For extracting sentences from text of Youtube Transcript ]
+- Cohere AI [ For semantic Search of user's query]
+
+
+######## Workflow of Project #############
+
+* FLOW CHART WILL BE CREATED
+
+######## Demo #######################
+
+* Demo video of project
+
+######## FUTURE WORK ###############
+
+* Search for required information in any video or audio file.
+
+	- Not restricted to youtube videos
+
+* Search for required information from more than one video or audio file at a time.
+

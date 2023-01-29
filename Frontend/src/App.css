@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --color-primary: #ff4820;
+  --color-text: #81afdd;
+  --color-subtext: #ff8a71;
+  --color-bg: #040c18;
+  --color-bg-trans: #040c18b4;
+  --color-blog: #042c54;
+  --color-white-light: rgba(255, 255, 255, 0.845);
+  --text-gradient: linear-gradient(
+    var(--color-text),
+    var(var(--color-subtext))
+  );
+
+  --transition: 150ms linear;
+
+  --color-light: rgba(1, 1, 1, 0.7);
+}
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+  /* background-repeat: no-repeat; */
+}
+
+.section {
+  padding: 0 4rem;
+  max-width: 1260px;
+  width: 100%;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.section {
+  overflow: hidden;
+}
+.section > h2 {
+  text-align: center;
+  color: var(--color-primary);
+  letter-spacing: 1px;
+}
+.section > p {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ==================MEDIA QURIES (MEDIUM DEVICES)=============== */
+
+@media screen and (max-width: 1024px) {
+}
+
+/* ==================MEDIA QURIES (SMALL DEVICES)=============== */
+
+@media screen and (max-width: 600px) {
+  .section {
+    padding: 0 0.5rem;
+  }
+}

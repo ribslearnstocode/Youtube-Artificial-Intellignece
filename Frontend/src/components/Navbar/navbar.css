@@ -1,0 +1,56 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+  color: white;
+  max-width: 1260px;
+  width: 100%;
+  padding: 0 5rem;
+  /* position: fixed;
+  width: 100%;
+  top: 0; */
+}
+nav h3 {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+nav h3 span {
+  color: var(--color-primary);
+}
+nav h3 svg {
+  margin-right: 0.5rem;
+  color: var(--color-primary);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.3rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  transition: var(--transition);
+  padding: 0.4rem 1rem;
+  border-radius: 16px;
+  font-size: 0.8rem;
+}
+nav ul li a:hover {
+  letter-spacing: 3px;
+  background-color: var(--color-primary);
+}
+
+/* ==================MEDIA QURIES (MEDIUM DEVICES)=============== */
+
+@media screen and (max-width: 1024px) {
+}
+
+/* ==================MEDIA QURIES (SMALL DEVICES)=============== */
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+}

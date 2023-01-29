@@ -1,0 +1,97 @@
+.hero__section {
+  display: flex;
+  margin: 2rem;
+}
+
+.text__container {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+}
+.text__container h1 {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.text__container svg {
+  margin-right: 0.5rem;
+  color: var(--color-primary);
+}
+.text__container span {
+  color: var(--color-primary);
+}
+.text__container p {
+  margin-top: 1rem;
+  color: white;
+  font-weight: 300;
+}
+
+.text__container .btn__container {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.btn {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: none;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  transition: var(--transition);
+  height: 100%;
+}
+a {
+  color: white;
+}
+.btn:disabled {
+  background-color: gray;
+  pointer-events: none;
+}
+.btn:hover {
+  color: var(--color-light);
+  background-color: white;
+  letter-spacing: 1px;
+}
+.btn__primary {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+}
+.btn__primary:hover {
+  background-color: var(--color-primary);
+}
+
+.img__container {
+  flex-basis: 50%;
+}
+
+.img__container img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  width: 30rem;
+}
+/* ==================MEDIA QURIES (MEDIUM DEVICES)=============== */
+
+@media screen and (max-width: 1024px) {
+}
+
+/* ==================MEDIA QURIES (SMALL DEVICES)=============== */
+
+@media screen and (max-width: 600px) {
+  .img__container {
+    display: none;
+  }
+  .text__container {
+    flex-basis: 100%;
+    padding: 1rem;
+  }
+}

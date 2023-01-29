@@ -1,0 +1,18 @@
+Key Points:
+* Team Intro?
+* Vision?
+* Problem?
+* Our Solution?
+* Tools and Models?
+* Workflow of project?
+* Demo?
+* Future Work?
+
+
+
+--------------------- MAKING TIPS ----------------------
+
+* color palete from -> colours.co
+* icons -> flaticon website
+
+
